@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Map</title>
+    <style>
+      .content {
+        text-align: center;
+        margin-top: 0px;
+        font-size: 18px;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+      }
+      img[usemap],
+      map area {
+        outline: none;
+      }
+      body {
+        background-color: lightgray;
+      }
+      h2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <img
+        src="../Images/menu.jpg"
+        alt=""
+        width="1184"
+        height="78"
+        usemap="#map1"
+        border="0"
+      />
+    </div>
+    <map name="map1">
+      <area
+        shape="rect"
+        coords="11,13,120,62"
+        href="../index.html"
+        target="_blank"
+        alt="Home Page"
+      />
+      <area
+        shape="rect"
+        coords="133,13,316,62"
+        href="practical-1.html"
+        target="_blank"
+        alt="Practical-1"
+      />
+      <area
+        shape="rect"
+        coords="330, 13, 538,68"
+        href="practical-2.html"
+        target="_blank"
+        alt="Practical-2"
+      />
+      <area
+        shape="rect"
+        coords="546, 14, 746, 65"
+        href="practical-3.html"
+        target="_blank"
+        alt="Practical-3"
+      />
+      <area
+        shape="rect"
+        coords="758,12, 959,67"
+        href="practical-4.html"
+        target="_blank"
+        alt="Practical-4"
+      />
+      <area
+        shape="rect"
+        coords="969,14,1172,66"
+        href="#"
+        target="_blank"
+        alt="Practical-5"
+      />
+    </map>
+
+    <div class="content">
+      <h2>Introduction to Front-End Technologies</h2>
+      <img
+        src="../Images/Practical-5.jpg"
+        width="400"
+        height="350"
+        alt=""
+        usemap="#map2"
+      />
+      <map name="map2">
+        <area shape="rect" coords="20,10,171,167" target="_blank"
+        href="practical-5-html.html" " alt="HTML"> <area shape="circle"
+        coords="290,95,100" target="_blank" href="practical-5-css.html" "
+        alt="CSS"> <area shape="rect" coords="24,197,168,336" target="_blank"
+        href="practical-5-jq.html" " alt="JQuery"> <area shape="poly"
+        coords="287,203,347,223,337,300,288,328,240,300,231,224" target="_blank"
+        href="practical-5-boot.html" " alt="Bootstrap">
+      </map>
+      <p style="color: red;">
+        Click on any part of logo to know more about these technologies.
+      </p>
+    </div>
+  </body>
+</html>

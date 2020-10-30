@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+	<title>Custom Plan Table</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<style>
+		* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  min-height: 100%;
+}
+body {
+  font: 13px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  background-color: lightgrey;
+}
+
+
+
+#page-wrap {
+  margin: 20px auto;
+  width: 600px;
+  padding: 10px;
+  background: white;
+}
+#feature-table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+#feature-table td,
+#feature-table th {
+  width: 150px;
+  padding: 8px 5px;
+  text-align: center;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+i {
+  font-size: 30px;
+  color:  #64548f;
+  margin-right: 5px;
+}
+
+#feature-table th {
+  font-size: 30px;
+  width: 300px;
+  line-height: 70px;
+  color: #64548f;
+  
+}
+#feature-table .final-row td {
+  padding: 24px 5px;
+}
+
+.basic {
+  background-color: #d5e4bc;
+}
+.plus {
+  background-color: #c1dcb7;
+}
+.premium {
+  background-color: #bad6c8;
+}
+.pro {
+  background-color: #bbd3dc;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #edf3e2;
+}
+
+.button {
+  background: #64548f;
+  padding: 15px 30px;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.button:hover {
+  background: red;
+  color: #ffffff;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+tbody tr:first-child td {
+  font-size: 20px;
+  color: green;
+}
+
+	</style>
+</head>
+
+<body>
+		<div id="page-wrap">
+			<h2>Select your Plan</h2>
+			<table id="feature-table">
+				<colgroup class="basic"></colgroup>
+				<colgroup class="plus"></colgroup>
+				<colgroup class="premium"></colgroup>
+				<colgroup class="pro"></colgroup>
+				<thead>
+					<tr>
+						<th><i class="fa fa-building" aria-hidden="true"></i>Basic</th>
+						<th><i class="fa fa-superpowers" aria-hidden="true"></i>Plus</th>
+						<th><i class="fa fa-telegram" aria-hidden="true"></i>Deluxe</th>
+						<th><i class="fa fa-tachometer" aria-hidden="true"></i>Pro</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Rs. 500/- </td>
+						<td>Rs. 1500/-</td>
+						<td>Rs. 2500/-</td>
+						<td>Rs. 3500/-</td>
+						
+					</tr>
+					<tr>
+						<td>50 pages</td>
+						<td>75 pages</td>
+						<td>Unlimited</td>
+						<td>Unlimited</td>
+					</tr>
+					<tr>
+						<td>3 users</td>
+						<td>5 users</td>
+						<td>10 users</td>
+						<td>Unlimited</td>
+					</tr>
+					<tr>
+						<td>10 Sites</td>
+						<td>25 Sites</td>
+						<td>100 Sites</td>
+						<td>Unlimited</td>
+					</tr>
+					<tr>
+						<td>50 MB</td>
+						<td>250 MB</td>
+						<td>1 GB</td>
+						<td>5 GB</td>
+					</tr>
+					<tr>
+						<td>included</td>
+						<td>included</td>
+						<td>included</td>
+						<td>included</td>
+					</tr>
+					<tr>
+						<td><img src="../Images/images/icon-check.png" alt="yes" /></td>
+						<td><img src="../Images/images/icon-check.png" alt="yes" /></td>
+						<td><img src="../Images/images/icon-check.png" alt="yes" /></td>
+						<td><img src="../Images/images/icon-check.png" alt="yes" /></td>
+					</tr>
+					<tr>
+						<td><img src="../Images/images/icon-x.png" alt="no" /></td>
+						<td><img src="../Images/images/icon-check.png" alt="yes" /></td>
+						<td><img src="../Images/images/icon-check.png" alt="yes" /></td>
+						<td><img src="../Images/images/icon-check.png" alt="yes" /></td>
+					</tr>
+					<tr>
+						<td><img src="../Images/images/icon-x.png" alt="no" /></td>
+						<td><img src="../Images/images/icon-check.png" alt="yes" /></td>
+						<td><img src="../Images/images/icon-check.png" alt="yes" /></td>
+						<td><img src="../Images/images/icon-check.png" alt="yes" /></td>
+					</tr>
+					<tr>
+						<td><img src="../Images/images/icon-x.png" alt="no" /></td>
+						<td><img src="../Images/images/icon-x.png" alt="no" /></td>
+						<td><img src="../Images/images/icon-check.png" alt="yes" /></td>
+						<td><img src="../Images/images/icon-check.png" alt="yes" /></td>
+					</tr>
+					<tr>
+						<td><img src="../Images/images/icon-x.png" alt="no" /></td>
+						<td><img src="../Images/images/icon-x.png" alt="no" /></td>
+						<td><img src="../Images/images/icon-x.png" alt="no" /></td>
+						<td><img src="../Images/images/icon-check.png" alt="yes" /></td>
+					</tr>
+					<tr class="final-row">
+						<td><a class="button" href="#">Sign Up</a></td>
+						<td><a class="button" href="#">Sign Up</a></td>
+						<td><a class="button" href="#">Sign Up</a></td>
+						<td><a class="button" href="#">Sign Up</a></td>
+					</tr>
+				</tbody>
+			</table>
+				
+		</div>
+	
+	
+	
+</body>
+
+</html>
