@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Practical-20 Bootstrap Layout</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      .row > div {
+        margin-bottom: 15px;
+      }
+      .header {
+        min-height: 90px;
+      }
+      .footer {
+        min-height: 60px;
+      }
+      .content {
+        min-height: 300px;
+      }
+      .sidebar-top {
+        min-height: 140px;
+      }
+      .sidebar-bottom {
+        min-height: 145px;
+        margin-bottom: -15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-3">
+      <h2 class="text-center bg-light text-dark p-3">
+        Bootstrap Responsive Grid System
+      </h2>
+
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="header bg-info"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <div class="content bg-warning"></div>
+        </div>
+        <div class="col-md-5">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="sidebar-top bg-primary"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="sidebar-bottom bg-danger"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer bg-dark"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
